@@ -87,7 +87,7 @@ class AboutSandwichCode < Neo::Koan
      end
      end
      end
- 
+
 
   def test_finding_lines2
     assert_equal "test\n", find_line2("example_file.txt")
